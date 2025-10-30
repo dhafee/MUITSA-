@@ -176,6 +176,8 @@ export default function Home() {
                   >
                     Join MUITSA <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
                   </Button>
+
+                  <Link href="/library">
                   <Button
                     size="lg"
                     variant="outline"
@@ -183,6 +185,7 @@ export default function Home() {
                   >
                     Explore Resources
                   </Button>
+                  </Link>
                 </div>
 
                 {/* Stats Row - Made responsive with flex-wrap */}
@@ -207,7 +210,7 @@ export default function Home() {
                 {/* Large Image Card */}
                 <Card className="absolute top-0 right-0 w-[300px] sm:w-[350px] lg:w-[400px] h-[350px] sm:h-[450px] lg:h-[500px] overflow-hidden shadow-2xl">
                   <img
-                    src="/it-students-coding-together-in-modern-tech-lab.jpg"
+                    src="/mucg.jpg"
                     alt="MUITSA Members"
                     className="w-full h-full object-cover"
                   />
