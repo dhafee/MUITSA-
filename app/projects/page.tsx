@@ -552,7 +552,7 @@ export default function ProjectsPage() {
               Have a Project Idea?
             </h2>
             <p className="text-base sm:text-lg mb-6 sm:mb-8 max-w-2xl mx-auto text-accent-foreground/90">
-              Share your project ideas with the MUISA community. Help other students learn by contributing project
+              Share your project ideas with the MUITSA community. Help other students learn by contributing project
               guides and resources.
             </p>
             <Button

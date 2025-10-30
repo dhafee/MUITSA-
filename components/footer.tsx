@@ -27,27 +27,27 @@ export function Footer() {
             <h3 className="font-bold mb-4">Quick Links</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/about" className="opacity-90 hover:opacity-100 hover:underline">
-                  About Us
+                <Link href="https://mug.edu.gh/about-us/" className="opacity-90 hover:opacity-100 hover:underline">
+                  About MUG
                 </Link>
               </li>
               <li>
-                <Link href="/academics" className="opacity-90 hover:opacity-100 hover:underline">
+                <Link href="https://mug.edu.gh/academic-affairs-directorate/" className="opacity-90 hover:opacity-100 hover:underline">
                   Academics
                 </Link>
               </li>
               <li>
-                <Link href="/admission" className="opacity-90 hover:opacity-100 hover:underline">
+                <Link href="/" className="opacity-90 hover:opacity-100 hover:underline">
                   Admissions
                 </Link>
               </li>
               <li>
-                <Link href="/student-life" className="opacity-90 hover:opacity-100 hover:underline">
+                <Link href="/" className="opacity-90 hover:opacity-100 hover:underline">
                   Student Life
                 </Link>
               </li>
               <li>
-                <Link href="/alumni" className="opacity-90 hover:opacity-100 hover:underline">
+                <Link href="/" className="opacity-90 hover:opacity-100 hover:underline">
                   Alumni Stories
                 </Link>
               </li>
@@ -59,27 +59,27 @@ export function Footer() {
             <h3 className="font-bold mb-4">Resources</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/portal" className="opacity-90 hover:opacity-100 hover:underline">
+                <Link href="https://osissip.osis.online/" className="opacity-90 hover:opacity-100 hover:underline">
                   Student Portal
                 </Link>
               </li>
               <li>
-                <Link href="/library" className="opacity-90 hover:opacity-100 hover:underline">
-                  Library
+                <Link href="https://library.mug.edu.gh/" className="opacity-90 hover:opacity-100 hover:underline">
+                  MUG Library
                 </Link>
               </li>
               <li>
-                <Link href="/calendar" className="opacity-90 hover:opacity-100 hover:underline">
+                <Link href="https://mug.edu.gh/wp-content/uploads/2025/08/ACADEMIC-CALENDAR-FOR-STUDENTS-AUGUST-COHORT-2025-2026-ACADE.pdf" className="opacity-90 hover:opacity-100 hover:underline">
                   Academic Calendar
                 </Link>
               </li>
               <li>
-                <Link href="/apply" className="opacity-90 hover:opacity-100 hover:underline">
-                  How to Apply Online
+                <Link href="https://mug.edu.gh/how-to-apply-online/" className="opacity-90 hover:opacity-100 hover:underline">
+                  How to Apply Online to MUG
                 </Link>
               </li>
               <li>
-                <Link href="/graduate" className="opacity-90 hover:opacity-100 hover:underline">
+                <Link href="/" className="opacity-90 hover:opacity-100 hover:underline">
                   Graduate Programs
                 </Link>
               </li>

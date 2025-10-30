@@ -490,7 +490,7 @@ export default function TutorialsPage() {
               Create Your Own Tutorial
             </h2>
             <p className="text-base sm:text-lg mb-6 sm:mb-8 max-w-2xl mx-auto text-accent-foreground/90">
-              Share your knowledge with the MUISA community. Submit your video tutorials and help other students learn.
+              Share your knowledge with the MUITSA community. Submit your video tutorials and help other students learn.
             </p>
             <Button
               size="lg"

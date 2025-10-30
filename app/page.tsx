@@ -63,45 +63,48 @@ export default function Home() {
       title: "Programme Intern – Administrative/Programmatic (Impact Investing Ghana)",
       company: "Impact Investing Ghana",
       location: "Ghana",
-      type: "Contract",
+      type: "Internship",
       salary: "GHS -undisclosed",
       tags: ["Figma", "Design", "Prototyping"],
       link: "https://impactinvestinggh.org/job-openings/call-for-programme-interns/"
     },
     {
       id: 4,
-      title: "Frontend Developer Intern (Remote / Ghana)",
-      company: "Analytics Pro",
-      location: "Accra",
-      type: "Full-time",
-      salary: "GHS 3,500 - 5,500",
-      tags: ["SQL", "Python", "Tableau"],
+      title: "Web Developer Intern",
+      company: "TechJobsInGhana",
+      location: "Accra, Remote",
+      type: "Internship",
+      salary: "Stipend Available",
+      tags: ["html", "javascript", "SQL"],
+      link: "https://techjobsinghana.com/tjig-jobs/web-developer-intern/"
     },
     {
       id: 5,
-      title: "DevOps Engineer",
-      company: "Cloud Systems",
-      location: "Remote",
-      type: "Full-time",
-      salary: "GHS 5,000 - 8,000",
-      tags: ["Docker", "Kubernetes", "AWS"],
+      title: "Software Engineer Intern",
+      company: "Wise Soft Lab",
+      location: "Accra / Remote",
+      type: "Internship",
+      salary: "Stipend Available",
+      tags: ["TypeScript", "React", "Next.js"],
+      link: "https://www.ghanajob.com/job-vacancies-ghana/software-engineer-intern-159663"
     },
     {
       id: 6,
-      title: "Mobile App Developer",
-      company: "AppWorks",
-      location: "Accra",
-      type: "Full-time",
-      salary: "GHS 3,500 - 5,500",
-      tags: ["Flutter", "React Native", "Mobile"],
+      title: "IT Internship” listings portal – multiple roles",
+      company: "LinkedIn Jobs for IT internships in Ghana (updated daily)",
+      location: "Ghana",
+      type: "Internship",
+      salary: "Stipend Available",
+      tags: ["Daily listing", "various field"],
+      link: "linkedin.com/jobs/it-internship-jobs?utm_source=chatgpt%2Ecom&originalSubdomain=gh"
     },
   ]
 
   const eventsData = [
     {
-      date: "Nov 15",
-      title: "Web Development Workshop",
-      description: "Learn modern web development with React and Node.js",
+      date: "OCT 30",
+      title: "About MUITSA & Website Launch",
+      description: "Learn more MUITSA and explore our new website features",
       attendees: 45,
       type: "Workshop",
     },
@@ -109,7 +112,7 @@ export default function Home() {
       date: "Nov 22",
       title: "Hackathon 2024",
       description: "48-hour coding challenge with prizes and networking",
-      attendees: 120,
+      attendees: 20,
       type: "Hackathon",
     },
     {
@@ -123,7 +126,7 @@ export default function Home() {
       date: "Dec 12",
       title: "Career Fair",
       description: "Meet top tech companies and explore job opportunities",
-      attendees: 200,
+      attendees: 30,
       type: "Fair",
     },
   ]
@@ -152,7 +155,7 @@ export default function Home() {
               <div className="space-y-6 sm:space-y-8">
                 <Badge className="bg-accent text-accent-foreground text-xs sm:text-sm px-3 sm:px-4 py-2 w-fit">
                   <Code className="h-3 w-3 sm:h-4 sm:w-4 mr-2 inline" />
-                  MUISA - IT Excellence Hub
+                  MUITSA -  Excellence Hub
                 </Badge>
 
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-8xl font-bold leading-tight sm:leading-none text-balance">
@@ -171,7 +174,7 @@ export default function Home() {
                     className="bg-primary hover:bg-primary/90 text-primary-foreground text-base sm:text-lg px-6 sm:px-8 py-5 sm:py-6 h-auto w-full sm:w-auto"
                     onClick={() => setShowApplicationForm(true)}
                   >
-                    Join MUISA <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
+                    Join MUITSA <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
                   </Button>
                   <Button
                     size="lg"
@@ -205,7 +208,7 @@ export default function Home() {
                 <Card className="absolute top-0 right-0 w-[300px] sm:w-[350px] lg:w-[400px] h-[350px] sm:h-[450px] lg:h-[500px] overflow-hidden shadow-2xl">
                   <img
                     src="/it-students-coding-together-in-modern-tech-lab.jpg"
-                    alt="MUISA Members"
+                    alt="MUITSA Members"
                     className="w-full h-full object-cover"
                   />
                 </Card>
@@ -252,12 +255,14 @@ export default function Home() {
                       Master Python, JavaScript, Java, C++, and more with curated tutorials and projects.
                     </p>
                   </div>
+                   <Link href="/tutorials">
                   <Button
                     variant="secondary"
                     className="w-fit group-hover:translate-x-2 transition-transform text-xs sm:text-sm"
                   >
                     Explore <ArrowRight className="ml-2 h-3 w-3 sm:h-4 sm:w-4" />
                   </Button>
+                  </Link>
                 </div>
               </Card>
 
@@ -514,7 +519,7 @@ export default function Home() {
                 Upcoming Events
               </Badge>
               <h2 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 sm:mb-6 text-balance">
-                MUISA Events Calendar
+                MUITSA Events Calendar
               </h2>
               <p className="text-base sm:text-lg lg:text-xl text-primary-foreground/90 max-w-2xl">
                 Join us for workshops, hackathons, networking events, and tech talks throughout the year.
@@ -747,7 +752,7 @@ export default function Home() {
               size="lg"
               className="w-full mt-6 sm:mt-8 bg-primary hover:bg-primary/90 text-primary-foreground text-sm sm:text-base"
             >
-              Start New Discussion <MessageSquare className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
+              Start New Discussion - feature unlocks soon<MessageSquare className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
             </Button>
           </div>
         </section>
@@ -760,7 +765,7 @@ export default function Home() {
         <section className="py-16 sm:py-24 lg:py-32 bg-gradient-to-br from-accent via-accent to-accent/90 text-accent-foreground">
           <div className="container mx-auto px-4 sm:px-6 lg:px-12 text-center">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl xl:text-7xl font-bold mb-6 sm:mb-8 text-balance">
-              Ready to Join MUISA?
+              Ready to Join MUITSA?
             </h2>
             <p className="text-base sm:text-lg lg:text-xl mb-8 sm:mb-12 max-w-3xl mx-auto leading-relaxed text-accent-foreground/90">
               Become part of a thriving community of IT enthusiasts, developers, and innovators. Access exclusive

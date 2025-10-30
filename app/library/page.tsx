@@ -38,16 +38,16 @@ export default function LibraryPage() {
     },
     {
       id: 2,
-      title: "Computer Science Fundamentals - Past Questions 2023",
-      level: "100",
+      title: "Principles of distributed system - Past Questions 2024/2025",
+      level: "400",
       category: "Past Questions",
-      author: "MUISA",
-      downloads: 456,
+      author: "MUITSA",
+      downloads: 6,
       rating: 4.6,
-      pages: 85,
-      description: "Complete past exam questions with solutions",
+      pages: 3,
+      description: "Complete past exam questions",
       tags: ["Exam Prep", "CS Fundamentals"],
-       fileUrl: "/past-questions/RCA-pitchdeck.pdf"
+       fileUrl: "/past-questions/principle-distributed.pdf"
     },
     {
       id: 3,
@@ -60,6 +60,7 @@ export default function LibraryPage() {
       pages: 156,
       description: "Detailed lecture notes covering digital logic concepts",
       tags: ["Digital Logic", "Architecture"],
+      fileUrl:"/past-questions/foundation-ebusiness.pdf"
     },
     {
       id: 4,
@@ -77,27 +78,29 @@ export default function LibraryPage() {
     // Level 200
     {
       id: 5,
-      title: "Data Structures & Algorithms Complete Guide",
-      level: "200",
-      category: "eBooks",
+      title: "PROFESSIONAL, LEGAL AND ETHICAL ISSUES IN COMPUTING ",
+      level: "400",
+      category: "past questions",
       author: "Dr. Abena Boateng",
-      downloads: 567,
+      downloads: 3,
       rating: 4.9,
-      pages: 450,
-      description: "In-depth coverage of DSA with Python implementations",
-      tags: ["DSA", "Algorithms", "Python"],
+      pages: 3,
+      description: "theory questions",
+      tags: ["DSA", "CS",],
+      fileUrl: "/past-questions/prof-legal-ethics.pdf"
     },
     {
       id: 6,
-      title: "Database Management Systems - Past Papers",
-      level: "200",
+      title: " Management Information Systems - 2024/2025 ",
+      level: "400",
       category: "Past Questions",
-      author: "MUISA",
-      downloads: 378,
+      author: "MUITSA",
+      downloads: 8,
       rating: 4.7,
-      pages: 120,
-      description: "5 years of DBMS exam questions with detailed solutions",
+      pages: 3,
+      description: "2024/205 exam questions",
       tags: ["DBMS", "SQL", "Exam Prep"],
+      fileUrl: "/past-questions/management-infomation.pdf"
     },
     {
       id: 7,
@@ -122,6 +125,7 @@ export default function LibraryPage() {
       pages: 0,
       description: "Master advanced React patterns and hooks",
       tags: ["React", "JavaScript", "Web Dev"],
+
     },
     {
       id: 9,
@@ -154,7 +158,7 @@ export default function LibraryPage() {
       title: "Web Technologies - Comprehensive Exam Papers",
       level: "300",
       category: "Past Questions",
-      author: "MUISA",
+      author: "MUITSA",
       downloads: 334,
       rating: 4.7,
       pages: 150,
@@ -216,7 +220,7 @@ export default function LibraryPage() {
       title: "Final Year Project Guidelines & Past Projects",
       level: "400",
       category: "Past Questions",
-      author: "MUISA",
+      author: "MUITSA",
       downloads: 289,
       rating: 4.8,
       pages: 200,
@@ -290,7 +294,7 @@ export default function LibraryPage() {
             <div className="max-w-3xl">
               <Badge className="mb-3 sm:mb-4 text-xs sm:text-sm">
                 <BookOpen className="h-3 w-3 sm:h-4 sm:w-4 mr-2 inline" />
-                MUISA Resource Library
+                MUITSA Resource Library
               </Badge>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 sm:mb-6 text-balance">
                 IT Learning Hub

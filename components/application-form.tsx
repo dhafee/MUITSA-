@@ -179,13 +179,13 @@ export function ApplicationForm({ onClose }: ApplicationFormProps) {
                 name="message"
                 value={formData.message}
                 onChange={handleChange}
-                placeholder="Share your IT interests, goals, and what you hope to gain from MUISA..."
+                placeholder="Share your IT interests, goals, and what you hope to gain from MUITSA..."
                 className="flex min-h-[100px] w-full rounded-md border border-input bg-background px-3 py-2 text-sm"
               />
             </div>
 
             <div className="flex gap-4">
-              <Button type="submit" className="flex-1 bg-primary hover:bg-primary/90">Join MUISA</Button>
+              <Button type="submit" className="flex-1 bg-primary hover:bg-primary/90">Join MUITSA</Button>
               <Button type="button" variant="outline" onClick={onClose}>Cancel</Button>
             </div>
           </form>

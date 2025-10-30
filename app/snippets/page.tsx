@@ -482,7 +482,7 @@ LIMIT 10;`,
               </h1>
               <p className="text-base sm:text-lg lg:text-xl text-muted-foreground mb-6 sm:mb-8">
                 Browse and copy useful code snippets for algorithms, UI components, utilities, and more. Curated by
-                MUISA members.
+                MUITSA members.
               </p>
 
               {/* Search Bar */}
@@ -725,7 +725,7 @@ LIMIT 10;`,
               Share Your Code Snippets
             </h2>
             <p className="text-base sm:text-lg mb-6 sm:mb-8 max-w-2xl mx-auto text-accent-foreground/90">
-              Have useful code snippets? Share them with the MUISA community and help others solve problems faster.
+              Have useful code snippets? Share them with the MUITSA community and help others solve problems faster.
             </p>
             <Button
               size="lg"
