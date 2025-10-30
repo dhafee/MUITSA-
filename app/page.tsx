@@ -43,8 +43,8 @@ export default function Home() {
       title: "Full-Stack Development Intern",
       company: "Xacent Global Technologies Inc",
       location: "Accra",
-      type: "part-time",
-      salary: "GHS 3,000",
+      type: "Internship",
+      salary: "stipend available",
       tags: ["React", "JavaScript", "CSS"],
       link: "https://www.glmis.gov.gh/JobPostings/JobDetails/2936" 
     },
@@ -53,8 +53,8 @@ export default function Home() {
       title: "Front End Web Developer Interns (Paid)",
       company: "Base Element",
       location: "Accra",
-      type: "part-time",
-      salary: "GHS 4,000",
+      type: "Internship",
+      salary: "stipend available",
       tags: ["Python", "Django", "PostgreSQL"],
       link: "https://www.baseelement.digital/en/careers/front_end_developer_intern"
     },
@@ -64,7 +64,7 @@ export default function Home() {
       company: "Impact Investing Ghana",
       location: "Ghana",
       type: "Internship",
-      salary: "GHS -undisclosed",
+      salary: "stipend available",
       tags: ["Figma", "Design", "Prototyping"],
       link: "https://impactinvestinggh.org/job-openings/call-for-programme-interns/"
     },
