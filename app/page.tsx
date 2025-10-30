@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import   Link  from "next/Link"
+import   Link  from "next/link"
 import { SideNav } from "@/components/side-nav"
 import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
